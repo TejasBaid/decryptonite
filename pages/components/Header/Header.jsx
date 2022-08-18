@@ -83,7 +83,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
   
-export const Header = () => {
+export default Header = () => {
   return (
     <Popover className="relative">
       <div className="absolute inset-0 shadow z-30 pointer-events-none" aria-hidden="true" />
@@ -314,3 +314,4 @@ export const Header = () => {
     </Popover>
   )
 }
+
