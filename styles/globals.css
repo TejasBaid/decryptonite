@@ -4,6 +4,7 @@
 
 html,
 body {
+  font-family: "Poppins" !important;
   padding: 0;
   margin: 0;
   background: url("/background.png");
@@ -18,7 +19,6 @@ body {
   box-sizing: border-box;
 }
 nav .links a {
-  font-family: "Poppins";
   margin-left: 4rem;
   color: white;
   font-size: 0.9rem;
@@ -44,4 +44,16 @@ nav .hamburger.active .bar:nth-child(1) {
 }
 nav .hamburger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+}
+.strokedText {
+  -webkit-text-stroke: 1px #0EE6B7;
+}
+.splash .buttons-container a {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  background-color: #21B998;
+  border-radius: 5px;
+  padding: 0.8rem 1.5rem;
 }
