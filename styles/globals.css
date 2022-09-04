@@ -14,8 +14,16 @@ body {
     height: 100vh;
     overflow-x: hidden;
 }
-
-
 * {
   box-sizing: border-box;
+}
+nav .links a {
+  font-family: "Poppins";
+  margin-left: 4rem;
+  color: white;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+}
+nav .links a:hover {
+  color: #3EC7A9;
 }
