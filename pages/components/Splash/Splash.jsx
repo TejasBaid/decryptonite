@@ -7,7 +7,7 @@ export default function Splash() {
             <div className="buttons-container flex w-screen justify-center flex-col lg:flex-row mt-6">
                 <a className="mr-0 lg:mr-10 mb-6 lg:mb-0" href="https://www.discord.com">Discord</a>
                 <a className="mr-0 lg:mr-10 mb-6 lg:mb-0" href="/register">Register</a>
-                <a className="mr-0 lg:mr-10 mb-6 lg:mb-0" href="https://docs.google.com/document/d/1bpeRtE2YC09lHyKIuPUFJkxxp1gfuPPvRneCMJxPv7U/edit">Resources</a>
+                <a className="mr-0 lg:mr-10 mb-6 lg:mb-0" href="https://docs.google.com/document/d/1bpeRtE2YC09lHyKIuPUFJkxxp1gfuPPvRneCMJxPv7U">Resources</a>
             </div>
         </div>
     );
