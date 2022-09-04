@@ -56,4 +56,5 @@ nav .hamburger.active .bar:nth-child(3) {
   background-color: #21B998;
   border-radius: 5px;
   padding: 0.8rem 1.5rem;
+  letter-spacing: 0.055em;
 }
