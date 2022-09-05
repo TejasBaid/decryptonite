@@ -49,6 +49,8 @@ nav .hamburger.active .bar:nth-child(3) {
   -webkit-text-stroke: 1px #0EE6B7;
 }
 .splash .buttons-container a {
+  text-align: center;
+  width: 15rem;
   cursor: pointer;
   color: white;
   font-weight: bold;
