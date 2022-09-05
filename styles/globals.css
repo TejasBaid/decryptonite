@@ -50,7 +50,7 @@ nav .hamburger.active .bar:nth-child(3) {
 }
 .splash .buttons-container a {
   text-align: center;
-  width: 15rem;
+  width: 12rem;
   cursor: pointer;
   color: white;
   font-weight: bold;
