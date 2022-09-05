@@ -3,9 +3,9 @@ export default function Navbar() {
         <nav className="flex flex-wrap-reverse lg:flex-nowrap h-16 lg:h-20 w-screen justify-between items-center fixed z-1">
             <div className="links hidden lg:flex">
                 <a href="/">Home</a>
-                <a href="/">About</a>
-                <a href="/">Register</a>
-                <a href="/">Login</a>
+                <a href="/about">About</a>
+                <a href="/register">Register</a>
+                <a href="/login">Login</a>
             </div>
             <div className="images ml-8 lg:mr-16 h-2/3 flex">
                 <img className="mr-4" src="/exun-logo.png" alt="Exun logo"/>
